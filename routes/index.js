@@ -22,9 +22,6 @@ router.get('/mailconfirm', function(req, res, next) {
   res.render('emailconfirm');
 });
 
-router.get('/mia', function(req, res, next) {
-  res.redirect('https://play.google.com/store/apps/details?id=com.app.Handly')
-});
 
 router.get('/descarga', function(req, res, next) {
   res.redirect('https://play.google.com/store/apps/details?id=com.app.Handly')
