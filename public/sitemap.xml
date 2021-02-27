@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+    <url>
+      <loc>https://handly.io/</loc>
+      <xhtml:link rel="alternate" hreflang="es" href="https://hanldy.io/"/>
+    </url>
+    <url>
+      <loc>https://handly.io/</loc>
+      <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://handly.io/download</loc>
+        <priority>0.80</priority>
+      </url>
+    <url>
+      <loc>https://handly.io/about</loc>
+      <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://handly.io/privacy</loc>
+        <priority>0.80</priority>
+    </url>
+  
+  </urlset>
