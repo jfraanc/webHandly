@@ -1,7 +1,16 @@
 {
-    "version": 2,
-    "name": "handlyWeb",
-    "builds": [
-      { "src": "app/package.json", "use": "@vercel/node" }
-    ]
-  }
+  "version": 2,
+  "name": "handlyWeb",
+  "builds": [
+    {
+      "src": "app.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/app.js"
+    }
+  ]
+}
